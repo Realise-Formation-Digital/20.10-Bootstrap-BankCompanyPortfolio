@@ -31,7 +31,12 @@ img {
     width: 100px;
     margin-right: 10px;
 }
+.cartes-comptes {
+	height: 100px;
+    width: 100px;
+    margin-left: 150px;
 
+}
 
 /* Header section */
 #header {
@@ -163,6 +168,8 @@ img {
 	top: 0;
 }
 /* End Header section */
+
+
 
 
 
