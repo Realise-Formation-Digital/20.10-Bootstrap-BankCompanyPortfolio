@@ -42,6 +42,7 @@ img {
 	width: 100vw;
 	height: auto;
 }
+
 #header .header {
 	min-height: 8vh;
 	background:linear-gradient(45deg, #0044AA 0%, black 59%,#0044AA 59%, black 65%,yellow 65%, black 70%, yellow 70%, black 73%,#0044AA 73%, black 78%,#0044AA 78%, black 100%);
