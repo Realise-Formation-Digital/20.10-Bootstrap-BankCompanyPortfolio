@@ -66,8 +66,12 @@
     border-color: #007bff;
   }
   .card:hover {
-    border-color: ##007bff;
+    border-color: #007bff;
+
   }
+  
+
+
   .card:hover .card-icon .icon-container {
     background: #007bff;
     -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.55);
