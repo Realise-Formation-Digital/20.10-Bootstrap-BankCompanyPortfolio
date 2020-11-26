@@ -1,3 +1,9 @@
+#VSCode
+.vscode
+
+#PHPStorn
+.idea
+
 # Logs
 logs
 *.log
