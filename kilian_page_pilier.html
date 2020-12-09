@@ -22,18 +22,23 @@
 
     <!-- Custom styles for this template -->
     <link href="css/landing-page.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css\login-form.css">
 
+    <script src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous">
+        </script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+            $("#footer").load("footer.html");
+        });
+    </script>
 </head>
 
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-light bg-light static-top">
-        <div class="container">
-            <a class="navbar-brand" href="index.html"><img src="img/happy-bank-gif-logooo.gif" alt="forecastr logo"></a>
-            <a class="btn btn-primary" href="#">Login</a>
-        </div>
-    </nav>
+    <div id="header"></div>
 
     <!-- Masthead -->
     <header class="masthead text-white text-center">
