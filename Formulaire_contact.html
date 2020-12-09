@@ -132,8 +132,8 @@
                         <!--Grid column-->
                         <div class="col-md-6">
                             <div class="md-form mb-0">
-                                <input type="text" id="name" name="name" class="form-control">
                                 <label for="name" class="">Your name</label>
+                                <input type="text" id="name" name="name" class="form-control">
                             </div>
                         </div>
                         <!--Grid column-->
@@ -141,8 +141,8 @@
                         <!--Grid column-->
                         <div class="col-md-6">
                             <div class="md-form mb-0">
-                                <input type="text" id="email" name="email" class="form-control">
                                 <label for="email" class="">Your email</label>
+                                <input type="text" id="email" name="email" class="form-control">
                             </div>
                         </div>
                         <!--Grid column-->
@@ -154,8 +154,8 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="md-form mb-0">
-                                <input type="text" id="subject" name="subject" class="form-control">
                                 <label for="subject" class="">Subject</label>
+                                <input type="text" id="subject" name="subject" class="form-control">
                             </div>
                         </div>
                     </div>
@@ -168,28 +168,34 @@
                         <div class="col-md-12">
 
                             <div class="md-form">
-                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
                                 <label for="message">Your message</label>
+                                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
                             </div>
 
                         </div>
 
                         <div class="col-md-12">
 
-                            <div class="md-form">
-                                <input class="form-control" id="date_du_jour" type="date" value="2011-08-19" id="example-date-input">
+                            <div class="form-group">
+                                <label for="example-date-input" class="md-form">Date</label>
+                                <input class="form-control md-textarea" id="date_du_jour" type="date" value="2011-08-19" id="example-date-input">
                             </div>
-
-                            <label for="example-date-input" class="md-form">Date</label>
                         </div>
+
+                        <div class="form-group row">
+                            <div class="offset-sm-2 col-sm-10">
+                                <input type="button" class="btn btn-primary" value="Valider" onClick="checkCode()">
+                            </div>
+                        </div>
+
                     </div>
                     <!--Grid row-->
 
                 </form>
 
-                <div class="text-center text-md-left">
-                    <input type="button" value="Valider" onClick="checkCode()">
-                </div>
+
+
+
                 <div class="status"></div>
 
             </div>
@@ -208,7 +214,7 @@
     <div class="container">
         <div class="row">
             <div class="col-xl-9 mx-auto">
-                <h2 class="mb-4">Convaincu ? Vaut mieux essayer que rester cocu !</h2>
+                <h2 class="mb-4">gravida est, nec dictum nisl. Etiam imperdiet sem non ! !</h2>
             </div>
             <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
                 <form>
@@ -217,7 +223,7 @@
                             <input type="email" class="form-control form-control-lg" placeholder="Insère ton e-mail ici frère">
                         </div>
                         <div class="col-12 col-md-3">
-                            <button type="submit" class="btn btn-block btn-xl btn-primary">Clique ici Boloss</button>
+                            <button type="submit" class="btn btn-block btn-xl btn-primary">Confirmation</button>
                         </div>
                     </div>
                 </form>
@@ -229,6 +235,8 @@
 
 
 
+
+
 <!-- Footer -->
 <footer class="footer bg-light">
     <div class="container">
@@ -236,19 +244,19 @@
             <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
                 <ul class="list-inline mb-2">
                     <li class="list-inline-item">
-                        <a href="#">About</a>
+                        <a href="#">A propos</a>
                     </li>
                     <li class="list-inline-item">&sdot;</li>
                     <li class="list-inline-item">
-                        <a href="#">Contact</a>
+                        <a href="Formulaire_contact.html">Contact</a>
                     </li>
                     <li class="list-inline-item">&sdot;</li>
                     <li class="list-inline-item">
-                        <a href="#">Terms of Use</a>
+                        <a href="#">Termes d'utilisation</a>
                     </li>
                     <li class="list-inline-item">&sdot;</li>
                     <li class="list-inline-item">
-                        <a href="#">Privacy Policy</a>
+                        <a href="#">Politique de confidentialité</a>
                     </li>
                 </ul>
                 <p class="text-muted small mb-4 mb-lg-0">&copy; Dream Factory 2020. All Rights Reserved.</p>
