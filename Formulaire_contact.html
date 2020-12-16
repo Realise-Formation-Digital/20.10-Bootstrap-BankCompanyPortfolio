@@ -184,7 +184,7 @@
 
                         <div class="form-group row">
                             <div class="offset-sm-2 col-sm-10">
-                                <input type="button" class="btn btn-primary" value="Valider" onClick="checkCode()">
+                                <input type="button" class="btn btn-primary" name="Valider" value="Valider" onClick="checkCode()">
                             </div>
                         </div>
 
@@ -309,7 +309,6 @@
                 return true;
             }
         }
-
         if(donnesValides === true) {
             alert(name + "\n" + email + "\n" + subject + "\n" + date);
         } else {
