@@ -3,7 +3,8 @@
     "name": "startbootstrap-landing-page",
     "version": "5.0.9",
     "scripts": {
-        "start": "node_modules/.bin/gulp watch"
+        "start": "node_modules/.bin/gulp watch",
+        "sass:watch" : "sass --watch $(pwd)/src/style.scss:$(pwd)/dist/style.css"
     },
     "description": "An HTML landing page template built with Bootstrap",
     "keywords": [
@@ -32,6 +33,8 @@
         "@fortawesome/fontawesome-free": "5.15.1",
         "bootstrap": "4.5.3",
         "jquery": "3.5.1",
+        "node-sass": "^5.0.0",
+        "sass": "^1.30.0",
         "simple-line-icons": "2.5.5"
     },
     "devDependencies": {

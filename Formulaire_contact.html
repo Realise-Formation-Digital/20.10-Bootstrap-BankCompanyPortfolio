@@ -46,7 +46,7 @@
                 <form>
                     <div class="form-row">
                         <div class="col-12 col-md-9 mb-2 mb-md-0">
-                            <input type="email" class="form-control form-control-lg" placeholder="Insérez votre e-mail ">
+                            <input type="email" class="form-control form-control-lg" placeholder="e-mail ">
                         </div>
                         <div class="col-12 col-md-3">
                             <button type="submit" class="btn btn-block btn-lg btn-primary"> Confirmation</button>
@@ -192,10 +192,6 @@
                     <!--Grid row-->
 
                 </form>
-
-
-
-
                 <div class="status"></div>
 
             </div>
@@ -285,6 +281,9 @@
 </footer>
 
 <script>
+
+
+
     function checkCode () {
         const name = document.getElementById("name").value;
         const email = document.getElementById("email").value;
@@ -295,9 +294,28 @@
         console.log("Email", email)
         console.log("Subject", subject)
         console.log("Date", date)
-        alert(name + "\n" + email + "\n" + subject + "\n" + date)
-    }
 
+
+        const donnesValides = function() {
+            if (email === null) {
+                return false;
+            } else if (name === null) {
+                return false;
+            } else if (subject === null) {
+                return false;
+            } else if (date === null) {
+                return false;
+            } else {
+                return true;
+            }
+        }
+
+        if(donnesValides === true) {
+            alert(name + "\n" + email + "\n" + subject + "\n" + date);
+        } else {
+            alert("remplir tout le formulaire svp");
+        }
+    }
 
 </script>
 
