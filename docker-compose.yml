@@ -1,0 +1,20 @@
+version: "3.3"
+
+services:
+  # `webserver` service provides Apache + PHP
+  webserver:
+    # Use custom image based on php-apache official image
+    image: php:7.2-apache
+    container_name: php_web
+    # Run the services as the same user as the host's one, or as user with uid 1000
+    user: "${UID:-1001}:${UID:-1001}"
+    # Expose HTTP/S ports
+    ports:
+      - "5001:80"
+    working_dir: /var/www/html # chemin virtuel pointant vers le container déployé
+    volumes: 
+      # Served files
+      - ./www:/var/www/html
+    sysctls:
+      # Allow OS to bind 80 port to unprivileged (eg. non-root) users
+      - net.ipv4.ip_unprivileged_port_start=0 

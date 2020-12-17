@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e95ed2c5-6ecd-4de2-87f5-9bba1632a765" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docker-compose.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/www/mail.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.browserslistrc" beforeDir="false" afterPath="$PROJECT_DIR$/www/.browserslistrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/www/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/www/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Formulaire_contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/Formulaire_contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/assets.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comptes-Gaby-egg1.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/comptes-Gaby-egg1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/comptes-Gaby.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/comptes-Gaby.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hypotheque.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/hypotheque.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index copy mike.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/index copy mike.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kilian_epargne.css" beforeDir="false" afterPath="$PROJECT_DIR$/www/kilian_epargne.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kilian_epargne.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/kilian_epargne.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kilian_epargne.js" beforeDir="false" afterPath="$PROJECT_DIR$/www/kilian_epargne.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kilian_page_CG_bourse.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/kilian_page_CG_bourse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kilian_page_bitcoin.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/kilian_page_bitcoin.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kilian_page_bourse.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/kilian_page_bourse.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/kilian_page_pilier.html" beforeDir="false" afterPath="$PROJECT_DIR$/www/kilian_page_pilier.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mail.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/www/package.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="main" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1lKf59Gtvxk5Gn1gnFkRBCjVWFr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/www" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/www" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/www" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="sass:watch" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="sass:watch" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.sass:watch" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e95ed2c5-6ecd-4de2-87f5-9bba1632a765" name="Default Changelist" comment="" />
+      <created>1607350517733</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607350517733</updated>
+      <workItem from="1607350523121" duration="19007000" />
+      <workItem from="1607517737031" duration="8227000" />
+      <workItem from="1607951015034" duration="3986000" />
+      <workItem from="1608019942857" duration="272000" />
+      <workItem from="1608114757415" duration="17105000" />
+      <workItem from="1608192287115" duration="6168000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
